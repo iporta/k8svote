@@ -4,7 +4,7 @@ metadata:
   name: pod-apache
 spec:
   containers:
-  - name: Apache
+  - name: apache
     image: httpd:2.4
     ports:
     - containerPort: 80
